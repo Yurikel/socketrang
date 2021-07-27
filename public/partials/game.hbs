@@ -1,0 +1,20 @@
+{{#each games}}
+
+<div class='game'>
+  <div class='monitor'>
+    
+  </div>
+  <div class='techdata'>
+    <ul>
+      Game data:
+      <li>Track length: {{this.trackLength}} </li>
+      <li>Track height: {{this.trackHeight}} </li>
+      <li>Current number of enemies: {{this.enemies.length}} </li>
+      <li>Number of heroes: {{this.heroes.length}} </li>
+      <li>Time elapsed: {{this.timeElapsed}} seconds </li>
+      <li><b>SCORE: {{this.score}}</b></li>
+    </ul>
+  </div>
+</div>
+  
+{{/each}}
